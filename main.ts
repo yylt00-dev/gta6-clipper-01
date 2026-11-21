@@ -26,3 +26,4 @@ try {
   console.error(`could not copy ${source} to ${target}: ${(err as Error).message}`);
   process.exit(1);
 }
+console.log(`VIDEO.json copied to ${target}`);
